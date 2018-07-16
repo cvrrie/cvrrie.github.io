@@ -1,0 +1,51 @@
+.SplashPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  perspective: 1px;
+  background: 
+  /* top, transparent red, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.90), 
+    rgba(0, 0, 0, 0.90)
+  ),
+  url('/background.jpg');  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SplashPage .parallax {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.SplashPage .letter {
+  display: inline-block;
+  font-size: 150px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 10px;
+  user-select: none;
+  transition: 0.2s all;
+}
+
+.SplashPage .down {
+  cursor: pointer;
+  transition: 0.2s all;
+  transform: rotateX(180deg);
+}
+
+.title:hover .letter {
+  margin: 0 30px;
+}
+
+.title:hover .down {
+  transform: rotateX(0deg);
+}
