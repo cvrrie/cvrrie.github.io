@@ -13,7 +13,7 @@ class Gallery extends Component {
     return (
       <div className="Gallery">
         <div className="about">
-          Hi, I'm Carrie Rong.
+          hi i'm carrie!
         </div>
       </div>
     );

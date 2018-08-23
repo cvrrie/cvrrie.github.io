@@ -6,11 +6,10 @@
   width: 100%;
   perspective: 1px;
   background: 
-  /* top, transparent red, faked with gradient */ 
-  linear-gradient(
-    rgba(0, 0, 0, 0.90), 
-    rgba(0, 0, 0, 0.90)
-  ),
+    linear-gradient(
+      rgba(0, 0, 0, 0.05), 
+      rgba(0, 0, 0, 0.05)
+    ),
   url('/background.jpg');  
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -27,6 +26,7 @@
 }
 
 .SplashPage .letter {
+  color: #ffffff;
   display: inline-block;
   font-size: 150px;
   font-weight: 300;
@@ -42,6 +42,16 @@
   transform: rotateX(180deg);
 }
 
+.title:after {
+  content: '';
+  position: relative;
+  display: block;
+  bottom: 0;
+  border-bottom: 2px solid #ffffff;
+  background: #ffffff;
+  width: 0;
+}
+
 .title:hover .letter {
   margin: 0 30px;
 }
@@ -49,3 +59,4 @@
 .title:hover .down {
   transform: rotateX(0deg);
 }
+
