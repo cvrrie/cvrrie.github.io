@@ -1,6 +1,17 @@
 {
-  "main.css": "static/css/main.e0132dff.css",
-  "main.css.map": "static/css/main.e0132dff.css.map",
-  "main.js": "static/js/main.6fb36f9b.js",
-  "main.js.map": "static/js/main.6fb36f9b.js.map"
+  "main.css": "/static/css/main.3798b16d.chunk.css",
+  "main.js": "/static/js/main.b22a36f1.chunk.js",
+  "main.js.map": "/static/js/main.b22a36f1.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.3534d905.chunk.js": "/static/js/2.3534d905.chunk.js",
+  "static/js/2.3534d905.chunk.js.map": "/static/js/2.3534d905.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.e5b9ca760a7cde4198a088358c0606fc.js": "/precache-manifest.e5b9ca760a7cde4198a088358c0606fc.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.3798b16d.chunk.css.map": "/static/css/main.3798b16d.chunk.css.map",
+  "static/media/banana.svg": "/static/media/banana.12020fd0.svg",
+  "static/media/dragonfruit.svg": "/static/media/dragonfruit.fa09f929.svg",
+  "static/media/planet.svg": "/static/media/planet.9a13ab3a.svg",
+  "static/media/sunny.svg": "/static/media/sunny.90b7234e.svg"
 }
